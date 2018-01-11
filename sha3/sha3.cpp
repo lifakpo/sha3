@@ -187,3 +187,14 @@ std::string sha3_256(std::string input) {
 	return std::string(outputHex,64);
 
 }
+
+std::string hash(std::string input) {
+	return sha3_256(input);
+}
+std::string hashName() {
+	return "SHA3";
+}
+
+std::string version() {
+	return SHA3_VERSION_STR;
+}
