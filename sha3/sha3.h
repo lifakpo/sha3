@@ -5,8 +5,8 @@
 #define HASH_ERR_BAD_PARAMETER 1
 #define HASH_SUCCESS 0
 
-#define SHA3_VERSION 1,1,0,0
-#define SHA3_VERSION_STR "1,1,0,0"
+#define SHA3_VERSION 1,0
+#define SHA3_VERSION_STR "1,0"
 
 #include <cstdint>
 #include <cstdlib>
@@ -27,6 +27,3 @@
 
 #include <string>
 std::string sha3_256(std::string input);
-std::string hash(std::string input);
-std::string hashName();
-std::string version();

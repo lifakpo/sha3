@@ -2,8 +2,8 @@
 #ifndef SHA256_H
 #define SHA256_H
 
-#define SHA256_VERSION 1,2,0,0
-#define SHA256_VERSION_STR "1,2,0,0"
+#define SHA256_VERSION 1,0
+#define SHA256_VERSION_STR "1,0"
 
 #include <string>
 
@@ -31,9 +31,6 @@ protected:
 };
 
 std::string sha256(std::string input);
-std::string hash(std::string input);
-std::string hashName();
-std::string version();
 
 
 #define SHA2_SHFR(x, n)    (x >> n)

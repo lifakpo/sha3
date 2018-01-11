@@ -7,6 +7,7 @@
 * but not liability.
 */
 #include "sha3.h"
+#include "hash.h"
 
 
 #include <cstdint>
